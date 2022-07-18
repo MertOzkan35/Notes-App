@@ -1,0 +1,26 @@
+.box {
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+  list-style-type: none;
+  width: 25%;
+  height: 200px;
+  position: relative;
+  padding: 9px;
+  margin: 15px;
+
+  color: #000;
+
+  border-radius: 15px 15px 0 15px;
+}
+
+.title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 350px;
+}
+
+.text {
+  width: 350px;
+  word-wrap: break-word;
+}
